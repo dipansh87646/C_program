@@ -1,0 +1,65 @@
+***************************************
+Five food name
+****************************************
+#include <stdio.h>
+int main()
+{
+printf("Sandwich");
+printf("French fries");
+printf("Pizza");
+printf("Burger");
+printf("pasta");
+return 0;
+}
+***************************************
+Five country name
+****************************************
+#include <stdio.h>
+int main()
+{
+printf("India");
+printf("Japan");
+printf(“America");
+printf("Indonesia");
+printf("China");
+return 0;
+}
+***************************************
+Five city name
+****************************************
+#include <stdio.h>
+int main()
+{
+printf("Jaipur");
+printf("Jaisalmer");
+printf(“Alwar");
+printf("Jodhpur");
+printf("Bhilwara");
+return 0;
+}
+***************************************
+Five fruits name
+****************************************
+#include <stdio.h>
+int main()
+{
+printf("Banana");
+printf("Mango");
+printf(“Apple");
+printf("Orange");
+printf("Watermelon");
+return 0;
+}
+***************************************
+Five name
+****************************************
+#include <stdio.h>
+int main()
+{
+printf("Aman");
+printf("Deepak");
+printf(“Ram");
+printf("Shyam");
+printf("Akhil");
+return 0;
+}
