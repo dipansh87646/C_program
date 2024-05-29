@@ -1,0 +1,194 @@
+************************************
+print 3.4
+************************************
+include <stdio.h>
+int main()
+{
+float a;
+printf(“Ente the value of a “);
+scanf(“%f”,&a);
+printf("%f",a);
+return 0;
+}
+
+************************************
+print t
+************************************
+#include<stdio.h>
+int main()
+{
+char a;
+printf(“Ente the value of a “);
+scanf(“%c”,&a);
+printf("%c",a);
+return 0;
+}
+
+************************************
+print 29
+************************************
+#include<stdio.h>
+int main()
+{
+int a;
+printf(“Ente the value of a “);
+scanf(“%d”,&a);
+printf("%d",a);
+return 0;
+}
+
+************************************
+
+print 67,o,-9.8,-3,92,-8.9
+************************************
+#include<stdio.h>
+int main()
+{
+int a,b;
+char c;
+float d,e,f;
+printf(“Ente the value of a,b,c,d and e “); scanf(“%d%c%f%f%d%f”,&a,&c,&d,&e,&b,&f);
+printf("%d\n%c\n%f\n%f\n%d\n%f",a,c,d,e,b,f);
+return 0;
+}
+
+************************************
+sub 34-5
+************************************
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf(“Ente the value of a and b “);
+scanf(“%d%d”,&a,&b);
+c=a-b;
+printf("c = %d",c);
+return 0;
+}
+
+************************************
+multiply 23*5
+************************************
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf(“Ente the value of a and b “);
+scanf(“%d%d”,&a,&b);
+c=a*b;
+printf("c = %d",c);
+return 0;
+}
+
+************************************
+devide 56-2
+************************************
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf(“Ente the value of a and b “);
+scanf(“%d%d”,&a,&b);
+c=a/b;
+printf("c = %d",c);
+return 0;
+}
+************************************
+sum 1+6+8+9
+************************************
+#include<stdio.h>
+int main()
+{
+int a,b,c,d,sum;
+printf(“Ente the value of a,b,c and d “);
+scanf(“%d%d%d%d”,&a,&b,&c,&d);
+sum=a+b+c+d;
+printf("sum = %d",sum);
+return 0;
+}
+************************************
+sum 34+67+3+89+12
+************************************
+#include<stdio.h>
+int main()
+{
+int a,b,c,d,e,sum;
+printf(“Ente the value of a, b,c,d and e“);
+sum=a+b+c+d+e;
+printf("sum = %d",sum);
+return 0;
+}
+
+scanf(“%d%d%d%d%d”,&a,&b,&c,&d,&e);
+
+************************************
+output of 34+(4*4)-8
+************************************
+#include<stdio.h>
+int main()
+{
+int a,b,c,result;
+printf(“Ente the value of a,b and c “);
+scanf(“%d%d%d”,&a,&b,&c);
+result=a+(b*b)-c;
+printf("result = %d",result);
+return 0;
+}
+************************************
+output of 3.1*6.7-(2.2*2.2)-5.4
+************************************
+#include<stdio.h>
+int main()
+{
+float a,b,c,d,result;
+printf(“Ente the value of a,b,c and d “);
+scanf(“%f%f%f%f”,&a,&b,&c,&d);
+result=a*b-(c*c)-d;
+printf("result = %d",result);
+return 0;
+}
+************************************
+output of 2.3-7+(3.4*6)-2.3/2
+************************************
+#include<stdio.h>
+int main()
+{
+int b,d,e;
+float a,c,result;
+printf(“Ente the value of a and b “);
+scanf(“%f%d%f%d%d”,&a,&b,&c,&d,&e);
+result = a-b+c * d-a/e;
+printf("result of = %f",result);
+return 0;
+}
+
+************************************
+output of 23*2-9+34
+************************************
+#include<stdio.h>
+int main()
+{
+int a,b,c,d,result;
+printf(“Ente the value of a,b,c and d“);
+scanf(“%d%d%d%d”,&a,&b,&c,&d);
+result = a*b-c+d;
+printf("result of = %d",result);
+return 0;
+}
+************************************
+output of 4.5*7+(2.3-2)+34.6
+************************************
+#include<stdio.h>
+int main()
+{
+float b,d,result;
+int a,c,e;
+printf(“Ente the value of a,b,c,d and e “);
+scanf(“%d%f%d%f%d”,&a,&b,&c,&d,&e);
+result = a*b+(c-d)+e;
+printf("result of = %f",result);
+return 0;
+}
+—----------------------------------------Github profile link - https://github.com/dipansh87646/C_program/blob/main/print_value.txt
+
+
