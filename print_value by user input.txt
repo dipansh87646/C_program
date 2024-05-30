@@ -189,6 +189,7 @@ result = a*b+(c-d)+e;
 printf("result of = %f",result);
 return 0;
 }
-—----------------------------------------Github profile link - https://github.com/dipansh87646/C_program/blob/main/print_value.txt
+—----------------------------------------
+Github profile link - https://github.com/dipansh87646/C_program/blob/main/print_value.txt
 
 
