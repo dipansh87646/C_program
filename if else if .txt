@@ -1,0 +1,640 @@
+********************************************************
+1.	Enter 1 : print One
+	Enter 2 : print Two
+	Enter 3 : print Three
+	Enter 4 : print Four
+	Enter 5 : print Five
+	Input is not matched
+********************************************************
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a number = ");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("One");
+    }
+    else if(a==2)
+    {
+        printf("Two");
+    }
+    else if(a==3)
+    {
+        printf("Three");
+    }
+    else if(a==4)
+    {
+        printf("Four");
+    }
+    else if(a==5)
+    {
+        printf("Five");
+    }
+    else 
+    {
+        printf("Input is not matched");
+    }
+    return 0;
+}
+
+********************************************************
+2.	Print Week days
+	otherwise Input is not matched
+********************************************************
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a number = ");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("Sunday");
+    }
+    else if(a==2)
+    {
+        printf("Monday");
+    }
+    else if(a==3)
+    {
+        printf("Tuesday");
+    }
+    else if(a==4)
+    {
+        printf("Wednesday");
+    }
+    else if(a==5)
+    {
+        printf("Thrusday");
+    }
+    else if(a==6)
+    {
+        printf("Friday");
+    }
+    else if(a==7)
+    {
+        printf("Saturday");
+    }
+    else 
+    {
+        printf("Input is not matched");
+    }
+    return 0;
+}
+
+********************************************************
+3.	Print months 
+	otherwise Input is not matched
+********************************************************
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a number = ");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("January");
+    }
+    else if(a==2)
+    {
+        printf("Febuary");
+    }
+    else if(a==3)
+    {
+        printf("March");
+    }
+    else if(a==4)
+    {
+        printf("April");
+    }
+    else if(a==5)
+    {
+        printf("May");
+    }
+    else if(a==6)
+    {
+        printf("June");
+    }
+    else if(a==7)
+    {
+        printf("July");
+    }
+    else if(a==8)
+    {
+        printf("August");
+    }
+    else if(a==9)
+    {
+        printf("September");
+    }
+    else if(a==10)
+    {
+        printf("October");
+    }
+    else if(a==11)
+    {
+        printf("November");
+    }
+    else if(a==12)
+    {
+        printf("December");
+    }
+    else 
+    {
+        printf("Input is not matched");
+    }
+    return 0;
+}
+
+********************************************************
+4.	print viwel and consonant using if else if
+	otherwise Input is not matched 
+********************************************************
+#include<stdio.h>
+int main ()
+{
+  char a;
+  printf ("Enter a character = ");
+  scanf("%c",&a);
+  if (a=='a')
+	{
+	  printf ("Vowel");
+	}
+  else if (a=='e')
+	{
+	  printf ("Vowel");
+	}
+  else if (a=='i')
+	{
+	  printf ("Vowel");
+	}
+  else if (a=='o')
+	{
+	  printf ("Vowel");
+	}
+  else if (a=='u')
+	{
+	  printf ("Vowel");
+	}
+  else
+	{
+	  printf ("Consonant");
+	}
+  return 0;
+}
+
+********************************************************
+5.	q,w,e,r,t,y,u,i,o,p 	: print upper line
+	a,s,d,f,g,h,j,k,l 	: print mid line
+	z,x,c,v,b,n,m 		: print lower line
+	otherwise Input is not matched
+********************************************************
+#include<stdio.h>
+int main ()
+{
+  char a;
+  printf ("Enter a character = ");
+  scanf("%c",&a);
+  if(a=='q' || a=='w' || a=='e' || a=='r' || a=='t' || a=='y' || a=='u' || a=='i' || a=='o' || a=='p')
+	{
+	  printf ("Upper Line");
+	}
+   else  if(a=='a' || a=='s' || a=='d' || a=='f' || a=='g' || a=='h' || a=='j' || a=='k' || a=='l')
+	{
+	  printf ("Mid Line");
+	}
+  else if(a=='z' || a=='x' || a=='c' || a=='v' || a=='b' || a=='n' || a=='m')
+	{
+	  printf ("lower Line");
+	}
+  else
+	{
+	  printf ("Input is not matched");
+	}
+  return 0;
+}
+
+********************************************************
+6.	Input check number :
+	5 divisible or not
+	8 divisible or not
+	2 divisible or not
+	input is not matched
+********************************************************
+#include<stdio.h>
+int main ()
+{
+  int a;
+  printf ("Enter a Number = ");
+  scanf("%d",&a);
+  if(a%5==0)
+	{
+	  printf ("Number is Divisible by 5");
+	}
+  else if(a%8==0)
+	{
+	  printf ("Number is Divisible by 8");
+	}
+  else if(a%2==0)
+	{
+	  printf ("Number is Divisible by 2");
+	}
+  else
+	{
+	  printf ("Input is not matched");
+	}
+  return 0;
+}
+
+********************************************************
+7.	Input check number :
+	Enter a and A : Addition
+	Enter s and S : Substraction
+	Enter m and M : AMultiplication
+	Enter d and D : Division
+	Enter r and R : Reminder
+	input is not matched
+********************************************************
+#include<stdio.h>
+int main ()
+{
+  char ch;
+  printf ("Enter the Character for the operation you want to perform (a,s,m,d and m) = ");
+  scanf("%c",&ch);
+  if(ch=='a' || ch=='A')
+	{
+	  int a,b,res;
+	  printf("Enter the value for a and b = ");
+	  scanf("%d %d",&a,&b);
+	  res = a + b;
+	  printf("Addition : %d",res);
+	}
+
+  else if(ch=='s' || ch=='S')
+	{
+	  int a,b,res;
+	  printf("Enter the value for a and b = ");
+	  scanf("%d %d",&a,&b);
+	  res = a - b;
+	  printf("Substraction : %d",res);
+	}
+
+  else if(ch=='m' || ch=='M')
+	{
+	  int a,b,res;
+	  printf("Enter the value for a and b = ");
+	  scanf("%d %d",&a,&b);
+	  res = a * b;
+	  printf("Multiplication : %d",res);
+	}
+  else if(ch=='d' || ch=='D')
+	{
+	  int a,b,res;
+	  printf("Enter the value for a and b = ");
+	  scanf("%d %d",&a,&b);
+	  res = a / b;
+	  printf("Division : %d",res);
+	}
+  else if(ch=='r' || ch=='R')
+	{
+	  int a,b,res;
+	  printf("Enter the value for a and b = ");
+	  scanf("%d %d",&a,&b);
+	  res = a % b;
+	  printf("Reminder : %d",res);
+	}
+  else
+	{
+	  printf("Input is not matched");
+	}
+  return 0;
+}
+
+********************************************************
+8.	User input five subjects marks every subjects marks greater 40 average calculate
+	otherwise you are fail
+********************************************************
+#include<stdio.h>
+int main ()
+{
+  int c,cpp,java,html,css,avg;
+  printf ("Enter Number of c = ");
+  scanf("%d",&c);
+  printf("Enter Number of cpp = ");
+  scanf("%d",&cpp);
+  printf ("Enter Number of java = ");
+  scanf("%d",&java);
+  printf ("Enter Number of html = ");
+  scanf("%d",&html);
+  printf ("Enter Number of css = ");
+  scanf("%d",&css);
+  if(c>=40 && cpp>=40 && java>=40 && html>=40 && css>=40)
+  {
+  avg = (c+cpp+java+html+css)/5;
+  printf("Average : %d",avg);
+  }
+  else
+  {
+      printf("You are fail");
+  }
+  return 0;
+}
+
+********************************************************
+9.	User input five subjects marks every subjects marks greater 32 percentage calculate
+	otherwise you are fail
+********************************************************
+#include<stdio.h>
+int main ()
+{
+  int c,cpp,java,html,css,per,tot=500;
+  printf ("Enter Number of c = ");
+  scanf("%d",&c);
+  printf("Enter Number of cpp = ");
+  scanf("%d",&cpp);
+  printf ("Enter Number of java = ");
+  scanf("%d",&java);
+  printf ("Enter Number of html = ");
+  scanf("%d",&html);
+  printf ("Enter Number of css = ");
+  scanf("%d",&css);
+  if(c>=32 && cpp>=32 && java>=32 && html>=32 && css>=32)
+  {
+  per = (c +cpp + java + html + css) *100 /tot;
+  printf("Percentage : %d",per);
+  }
+  else
+  {
+      printf("You are fail");
+  }
+  return 0;
+}
+
+********************************************************
+10.	User input five subjects marks every subjects marks greater percentage calculate greater than 60 so you pass
+	otherwise you are fail
+********************************************************
+#include<stdio.h>
+int main ()
+{
+  int c,cpp,java,html,css,per,tot=500;
+  printf ("Enter Number of c = ");
+  scanf("%d",&c);
+  printf("Enter Number of cpp = ");
+  scanf("%d",&cpp);
+  printf ("Enter Number of java = ");
+  scanf("%d",&java);
+  printf ("Enter Number of html = ");
+  scanf("%d",&html);
+  printf ("Enter Number of css = ");
+  scanf("%d",&css);
+  if(c>=36 && cpp>=36 && java>=36 && html>=36 && css>=36)
+  {
+  per = (c +cpp + java + html + css) * 100 / tot;
+      if(per>=60)
+      {
+        printf("Percentage : %d",per);
+      }
+      else 
+      {
+        printf("Your Percentage is %d are less than 60 ,so you are fail",per);
+      }
+  }
+  else
+  {
+      printf("You are fail");
+  }
+  return 0;
+}
+
+********************************************************
+11.	C program to enter student marks and find percentage and grade
+	A college has the following rules for the grading system
+	1.	Below 25 - F
+	2.	25 to 45 - E
+	3.	45 to 50 - D
+	4.	50 to 60 - C
+	5.	60 to 80 - B
+	6.	Above 80 - A
+********************************************************
+#include<stdio.h>
+int main ()
+{
+  int c,cpp,java,html,css,per,tot=500;
+  printf ("Enter Number of c = ");
+  scanf("%d",&c);
+  printf("Enter Number of cpp = ");
+  scanf("%d",&cpp);
+  printf ("Enter Number of java = ");
+  scanf("%d",&java);
+  printf ("Enter Number of html = ");
+  scanf("%d",&html);
+  printf ("Enter Number of css = ");
+  scanf("%d",&css);
+    per = (c +cpp + java + html + css) * 100 / tot;
+      if(per>=80)
+      {
+        printf("Grade : A\nPercentage : %d",per);
+      }
+      else if(per>=60 && per<80)
+      {
+        printf("Grade : B\nPercentage : %d",per);
+      }
+      else if(per>=50 && per<60)
+      {
+        printf("Grade : C\nPercentage : %d",per);
+      }
+      else if(per>=45 && per<50)
+      {
+        printf("Grade : D\nPercentage : %d",per);
+      }
+      else if(per>=25 && per<45)
+      {
+        printf("Grade : E\nPercentage : %d",per);
+      }
+      else
+      {
+        printf("Grade : F\nPercentage : %d",per);
+      }
+  return 0;
+}
+
+********************************************************
+12.	Write a c program to accept the hright of a person in centimeters and cateforize the person according to their height.
+	-> meter == cm
+	High
+	Mid
+	Low
+********************************************************
+#include<stdio.h>
+int main ()
+{
+ int h,res,base=10;
+ printf("Enter you height in meter = ");
+ scanf("%d",&h);
+ res = h * 100;
+ if(h>base)
+ {
+     printf("Your Height is High\nHeight in centimeters : %d",res);
+ }
+ else if(h==base)
+ {
+     printf("Your Height is Mid\nHeight in centimeters : %d",res);
+ }
+ else
+ {
+     printf("Your Height is low\nHeight in centimeters : %d",res);
+ }
+ return 0;
+}
+********************************************************
+13.	Write a c program to read the roll no,name,fname,mname and marks of three subjects 
+	and calculate the total,percentage and division
+********************************************************
+#include<stdio.h>
+int main ()
+{
+  int c,cpp,java,html,css,per,tot=500,roll;
+  printf ("Enter the roll number = ");
+  scanf("%d",&roll);
+
+  printf ("Enter Number of c = ");
+  scanf("%d",&c);
+  printf("Enter Number of cpp = ");
+  scanf("%d",&cpp);
+  printf ("Enter Number of java = ");
+  scanf("%d",&java);
+  printf ("Enter Number of html = ");
+  scanf("%d",&html);
+  printf ("Enter Number of css = ");
+  scanf("%d",&css);
+  
+  printf("Roll Number : %d",roll);
+  printf("\nStudent name : Ram");
+  printf("\nStudent Father name : Shyam");
+  printf("\nStudent Mother name : Seeta\n");
+  
+  per = (c + cpp + java + html + css) * 100 / tot;
+   if(per>=60)
+      {
+        printf("Percentage : %d \nDvision : First ",per);
+      }
+      else if(per>=45 && per<60)
+      {
+        printf("Percentage : %d \n Division : Second ",per);
+      }
+      else if(per>=36 && per<45)
+      {
+        printf("Percentage : %d \n Division : Third ",per);
+      }
+      else
+      {
+        printf("You are fail");
+      }
+  return 0;
+}
+********************************************************
+14.	Salary:					output:												
+	holiday (1) : full salary		Name :
+	2 - 5 : 5%				Address :
+	5 - 14 :10%				Bank Details :
+	15 : 50%				Salary : 
+	else : not salary			Alot :            Holidays :
+********************************************************
+#include <stdio.h>
+int main()
+{
+    
+    int sal,h,alot;
+    printf("Enter Your Salary = ");
+    scanf("%d",&sal);
+    printf("Enter Your Holidays = ");
+    scanf("%d",&h);
+    printf("\nName : Shyam");
+    printf("\nAddress : Jaipur");
+    printf("\nBank Details : 0123456789765");
+    if(h<=1)
+    {
+        
+        printf("\nSalary = %d",sal);
+        printf("\nAlot Salary = %d",alot);
+        printf("\nYour Total Holidays = %d",h);
+    }
+    else if(h>1 && h<=5)
+    {
+        alot = (5*sal)/100;
+        alot=sal-alot;
+        printf("\nSalary = %d",sal);
+        printf("\nAlot Salary = %d Because 5 percent less",alot);
+        printf("\nYour Total Holidays = %d",h);
+    }
+    else if(h>5 && h<=14)
+    {
+        alot = (10*sal)/100;
+        alot=sal-alot;
+        printf("\nSalary = %d",sal);
+        printf("\nAlot Salary = %d Because 10 percent less",alot);
+        printf("\nYour Total Holidays = %d",h);
+    }
+    else if(h==15)
+    {
+        alot = (50*sal)/100;
+        alot=sal-alot;
+        printf("\nSalary = %d",sal);
+        printf("\nAlot Salary = %d Because 50 percent less",alot);
+        printf("\nYour Total Holidays = %d",h);
+    }
+    else
+    {
+        printf("You not Alot Salary Because Your holidaays is above 15");
+    }
+    return 0;
+}
+
+*********************************************************************
+15.	Enter s : Number swap with third variable.
+	Enter w : Number swap without third variable.
+	Input not valid
+*********************************************************************
+#include <stdio.h>
+int main()
+{
+    
+    char c;
+    printf("Enter s for swap with third variable and w for without third variable = ");
+    scanf("%c",&c);
+    if(c=='s')
+    {
+        int a,b,res;
+        printf("Enter Two number = ");
+        scanf("%d %d",&a,&b);
+        printf("\nBefore swapping");
+        printf("\na = %d b = %d",a,b);
+        res=a;
+        a=b;
+        b=res;
+        printf("\nAfter swapping");
+        printf("\na = %d b = %d",a,b);
+    }
+     else if(c=='w')
+    {
+        int a,b;
+        printf("Enter Two number = ");
+        scanf("%d %d",&a,&b);
+        printf("\nBefore swapping");
+        printf("\na = %d b = %d",a,b);
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        printf("\nAfter swapping");
+        printf("\na = %d b = %d",a,b);
+    }
+    else
+    {
+        printf("Input Not valid");
+    }
+    return 0;
+}
